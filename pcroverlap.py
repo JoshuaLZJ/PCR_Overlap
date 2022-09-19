@@ -9,7 +9,6 @@ parser.add_argument('-r', '--size_range', metavar='<int>', type=int, nargs=2, he
 parser.add_argument('-l', '--overlap', metavar='<int>', type=int, help='size of overlap between PCR products')
 parser.add_argument('-s', '--start', metavar='<int>', type=int, help='start site for generating overlapping primers in fasta sequence')
 parser.add_argument('-o', '--output_file', metavar='<path-to-csv>', type=str, help='file path for output')
-parser.print_help()
 
 args = parser.parse_args()
 
